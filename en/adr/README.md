@@ -15,6 +15,7 @@ changes.
 | [0006](0006-one-repo-split-ready.md) | One repository, structured to split | accepted | A published SDK admits version skew — silently wrong charts, no error |
 | [0007](0007-partitioned-retention.md) | Daily partitions, retention by `DROP` | accepted | `DELETE` at 21.6M rows/month is its own load problem |
 | [0008](0008-notification-outbox.md) | Transactional outbox for notifications | accepted | No correct ordering exists for "write incident" and "send email" otherwise |
+| [0009](0009-docs-split.md) | Where each document lives | accepted | A doc that goes stale when code changes belongs beside the code |
 
 Template: [0000-template.md](0000-template.md).
 
